@@ -1,0 +1,31 @@
+all iis box
+all msmq
+restart
+wincc 8
+update wincc patch
+
+mount isoopen setup
+
+package installation
+
+in program packages:
+check all boxes except (wincc installation - wincc client installation - wincc client incl webserver )
+
+in programs:
+check below boxes:
+
+wincc standard
+wincc webux
+web navigator server
+webnavigator client
+diagnostics client
+web plugin builder
+data monitor server
+data monitor client
+connectivitypack server
+connectivitypack clinet
+connectivitypack station
+sql server 2019 standard eddition (wincc)
+sql server 2019 exprexx eddition (wincc)
+automation license manager
+simatic logon v1.6
